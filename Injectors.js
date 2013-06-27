@@ -155,7 +155,7 @@
 
   function youtubeQuickAdd () {
 
-    var $target = $('.yt-uix-button-panel .yt-uix-button-subscription-container:visible').first();
+    var $target = $('.yt-uix-button-panel .yt-uix-button-subscription-container .yt-subscription-button-subscriber-count-branded-horizontal:visible').first();
     var $button = generateGenericButton('youtube yt-uix-button-subscribe-branded');
     $target.after($button);
 
