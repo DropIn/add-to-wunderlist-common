@@ -290,6 +290,16 @@
     createGenericButtonBind();
   }
 
+  function wunderkinderQuickAdd() {
+
+    var $targetContainer = $('article .meta .share-rss');
+
+    var $button = generateGenericButton('wunderkinderblog share-generic');
+    $targetContainer.before($button);
+
+    createGenericButtonBind();
+  }
+
   function injectQuickAddLink () {
 
     var hash = window.location.hash;
@@ -369,6 +379,11 @@
     else if (/tripadvisor\./.test(host)) {
 
       tripadvisorQuickAdd();
+    }
+
+    else if (/6wunderkinder\.localhost/.test(host)) {
+
+      wunderkinderQuickAdd();
     }
   }
 
