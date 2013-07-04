@@ -381,7 +381,7 @@
       tripadvisorQuickAdd();
     }
 
-    else if (/6wunderkinder\.localhost/.test(host)) {
+    else if ((/6wunderkinder\.localhost/.test(host)) || (/6wunderkinder\.com/.test(host))) {
 
       wunderkinderQuickAdd();
     }
