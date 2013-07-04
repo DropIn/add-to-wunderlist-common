@@ -334,3 +334,10 @@ table.buyBox .wishlist td.bottomLeft {
   padding-left: 7px !important;
   margin-top: 2px !important;
 }
+
+#addToWunderlistButton span.wunderlist-icon {
+  height:14px !important;
+  width:14px !important;
+  background-size:14px !important;
+  background-image:url('https://wunderlist2.s3.amazonaws.com/9b5b50ccd8e1e6682e41ef5fb0f8bc6407f17140/images/favicon.ico') !important;
+}
