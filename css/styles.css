@@ -216,6 +216,20 @@ table.buyBox .wishlist td.bottomLeft {
   margin-left: 10px !important;
   padding: 6px 6px 5px 30px !important;
   position: relative !important;
+  border-color: #d3d3d3;
+  background: #f8f8f8;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  -moz-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+  -ms-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+  -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+  box-shadow: 0 1px 0 rgba(0,0,0,0.05);
+}
+
+#addToWunderlistButton.youtube:hover {
+
+  background: rgb(238, 238, 238);
 }
 
 #addToWunderlistButton.youtube span.wunderlist-icon {
